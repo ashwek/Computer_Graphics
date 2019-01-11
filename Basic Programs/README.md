@@ -1,10 +1,10 @@
 <table align="center">
     <tr align="center" valign="center">
-        <td> <a href="./Stickman.c">Stickman</a> </td>
+        <td> <h4><a href="./Stickman.c">Stickman</a></h4> </td>
     </tr>
-    <tr>
+    <tr align="center" valign="center">
         <td>
-            <img src="./Stickman_output.png" alt="Stickman output" />
+            <img src="./Output/Stickman_output.png" alt="Stickman output" width="50%" />
         </td>
     </tr>
 </table>
