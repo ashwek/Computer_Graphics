@@ -1,6 +1,6 @@
 <table align="center">
     <tr align="center" valign="center">
-        <td> <h4><a href="./Stickman.c">Stickman</a></h4> </td>
+        <td> <h3><a href="./Stickman.c">Stickman</a></h3> </td>
     </tr>
     <tr align="center" valign="center">
         <td>
