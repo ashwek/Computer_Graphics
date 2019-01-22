@@ -6,25 +6,26 @@
 #include <graphics.h>
 #include <math.h>
 
-int round(double point){
-	return (int)( (point - (int)point) >= 0.5 ) ? ceil(point) : floor(point);
+int round(float point){
+	return (int)(point+0.5);
 }
 
-void dda(double x1, double y1, double x2, double y2){
+void dda(int x1, int y1, int x2, int y2){
 
-	double steps = ( abs(x2-x1) > abs(y2-y1) ) ? abs(x2-x1) : abs(y2-y1);
-	double Xincr = (x2-x1) / steps;
-	double Yincr = (y2-y1) / steps;
+	int steps = ( abs(x2-x1) > abs(y2-y1) ) ? abs(x2-x1) : abs(y2-y1);
+	float Xincr = (float)(x2-x1) / steps;
+	float Yincr = (float)(y2-y1) / steps;
+	float x = (float)x1, y = (float)y1;
 
 	while( steps >= 0 ){
 
-		putpixel(round(x1), round(y1), getcolor());
+		putpixel(round(x), round(y), getcolor());
 
-		x1 += Xincr;
-		y1 += Yincr;
+		x += Xincr;
+		y += Yincr;
 		steps--;
-	}
 
+	}
 }
 
 void main(){
