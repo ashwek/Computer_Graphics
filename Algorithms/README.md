@@ -5,3 +5,6 @@ Computer graphic are pictures and films created using computers. Usually, the te
 ### [Line Drawing Algorithms](./Line)
  * [DDA (Digital Differential Analyzer)](./Line/DDA.c)
  * [Bresenham's line algorithm](./Line/Bresenhams%20line%20algorithm.c)
+
+### [Circle Drawing Algorithms](./Circle)
+ * [Midpoint Circle Algorithm](./Line/Midpoint%20circle%20algorithm.c)
