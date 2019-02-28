@@ -10,5 +10,5 @@ Computer graphic are pictures and films created using computers. Usually, the te
  * [Midpoint Circle Algorithm](./Line/Midpoint%20circle%20algorithm.c)
 
 ### [Flood Fill](./Flood%20Fill)
- * [4 Connected Flood Fill](../Flood%20Fill/4%20Connect%20Flood%20Fill.c)
- * [8 Connected Flood Fill](../Flood%20Fill/8%20Connect%20Flood%20Fill.c)
+ * [4 Connected Flood Fill](./Flood%20Fill/4%20Connect%20Flood%20Fill.c)
+ * [8 Connected Flood Fill](./Flood%20Fill/8%20Connect%20Flood%20Fill.c)
